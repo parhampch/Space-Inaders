@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane stylesheets="@style.css" styleClass="background" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.ChangeUserNameWindowController" prefHeight="400.0" prefWidth="600.0" alignment="center" hgap="10" vgap="10">
+    <VBox alignment="CENTER" spacing="10">
+        <TextField fx:id="userName" promptText="username" GridPane.rowIndex="0"/>
+        <Button styleClass="record-sales" text="change" GridPane.rowIndex="1" onMouseClicked="#change"/>
+        <Button styleClass="record-sales" text="back" GridPane.rowIndex="2" onMouseClicked="#back" alignment="CENTER"/>
+    </VBox>
+</GridPane>
